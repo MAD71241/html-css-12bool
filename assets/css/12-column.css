@@ -19,7 +19,16 @@
 
 .dbg [class*="col-"] {
     height: 200px;
-    background-color: brown;
+    background-color: #FFC0CB;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dbg [class*="col-"]>[class*="col-"] {
+    height: 100%;
+    background-color: #F07F80;
     border: 1px solid white;
 }
 
@@ -131,5 +140,3 @@
 .col-offset-11 {
     margin-left: calc((100% / 12)* 11);
 }
-
-/* CENTER ME */
